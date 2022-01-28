@@ -1,0 +1,40 @@
+Ask user to input integer that represnts number of cents
+cents >= 0
+1 dollar = 100 cents
+1 quarter = 25 cents
+1 dime = 10 cents
+1 nickel = 5 cents
+1 penny = 1 cents
+
+pseudocode with test entry:
+
+create int variable to hold user input
+create 5 int variables to hold counts for each dollar, quarter, etc
+
+
+print out ask user how many cents
+user enters 64 cents
+
+create int variable  remainder to hold remainder of each op
+
+op1:
+remainder = 64 % 100;
+dollarCount = remainder/100;
+//remainder = 64
+//dollarCount = 0;
+
+op2:
+quarterCount = remainder/25;
+remainder = 64 % 25 
+//quarterCount = 2
+// remainder = 14
+
+op3: 
+dimeCount = remainder/10;
+remainder = 15 % 10
+dimeCount = 1 
+// remainder = 5
+
+//repeat until pennies is reached
+
+
