@@ -4,7 +4,7 @@
 st = 'Print only the words that start with s in this sentence'
 onlyS = []
 
-
+#used st.split() to split up the strings using the whitespaces as delimiters
 separatedWord = st.split(' ')
 
 #start of the for loop that iterates through separateWord and sees if it starts with 's'
