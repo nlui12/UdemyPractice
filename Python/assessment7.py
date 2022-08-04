@@ -17,3 +17,28 @@ print (onlyS)
 
 ###########################################################################################################################
 
+#Question 2: Use range() to print all the even numbers from 0 to 10.
+
+for even in range(10):
+    if ((even % 2) == 0):
+        print( even, end = " ")
+print('\n')
+
+###########################################################################################################################
+
+#Use a List Comprehension to create a list of all numbers between 1 and 50 that are divisible by 3.
+
+#for loop and range(50) initialization, also empty list to hold divisible by 3
+#divisible by 3 means num % 3 == 0
+
+threeRange = []
+for counter in range(50):
+    if counter % 3 == 0:
+        threeRange.append(counter)
+
+print(threeRange)
+
+###########################################################################################################################
+
+#To start use split() on the string to separate the words in a list
+#Once we have words in a list we can 
