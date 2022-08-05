@@ -45,3 +45,28 @@
 #         print(word+ " <- is even in length")
 
 #########################################################################################################################
+
+#Write a program that prints the integers from 1 to 100. But for multiples of three print "Fizz" instead of the number, and for the multiples of five print "Buzz". For numbers which are multiples of both three and five print "FizzBuzz".
+
+# for x in range(1, 100):
+#     if (x % 5 == 0) & (x % 3 == 0):
+#         print('fizzbuzz')
+#     elif (x % 5 == 0):
+#         print('buzz')
+#     elif (x % 3 == 0):
+#         print('fizz')
+#     else:
+#         print(x)
+
+########################################################################################################################
+
+#Use a List Comprehension to create a list of the first letters of every word in the string below:
+
+st3 = 'Create a list of the first letters of every word in this string'
+
+#
+firstletterList = [x[0] for x in st3.split(" ")]
+print(firstletterList)
+
+
+
